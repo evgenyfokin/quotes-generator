@@ -1,0 +1,41 @@
+body {
+    background-color: cadetblue;
+}
+
+.container {
+    width: 95%;
+    height: 80vh;
+    display: flex;
+    padding: 0 15%;
+}
+
+.button {
+    text-align: center;
+}
+
+.quotes {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    border: 10px solid rgb(167, 163, 137);
+    color: rgb(131, 131, 131);
+    padding: 15% 15%;
+    text-align: center;
+}
+
+.quotes h3, .quotes p {
+    font-size: 1.5rem;
+}
+
+@media(max-width: 800px) {
+    .quotes h3, .quotes p {
+        font-size: 1rem;
+    }
+    .container {
+        padding: 0;
+    }
+    
+}
